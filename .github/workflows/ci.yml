@@ -16,6 +16,6 @@ jobs:
       with:
         java-version: 11
     - run: ./build_test.sh
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         path: server/build/libs/*.jar
