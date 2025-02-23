@@ -1,10 +1,10 @@
 plugins {
 	id 'org.springframework.boot' version '2.5.4'
-	id 'com.gorylenko.gradle-git-properties' version '2.3.1'
+	id 'com.gorylenko.gradle-git-properties' version '4.1.0'
 }
 
-// apply plugin: 'java'
-// apply plugin: 'io.spring.dependency-management'
+apply plugin: 'java'
+apply plugin: 'io.spring.dependency-management'
 
 group = 'moe.yushi'
 
